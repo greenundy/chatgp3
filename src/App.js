@@ -9,7 +9,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3001/', {
+    fetch('https://chatgp3-cco1.vercel.app:3001/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
